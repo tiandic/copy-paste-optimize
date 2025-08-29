@@ -1,7 +1,7 @@
 <!--
  * @encode: utf-8
  * @Date: 2025-08-20 21:11:49
- * @LastEditTime: 2025-08-29 13:38:58
+ * @LastEditTime: 2025-08-29 13:52:59
  * @FilePath: /copy paste optimize/src/README.md
 -->
 
@@ -31,6 +31,14 @@
 ### 使用
 在`config.yaml`可以直接编辑进行配置
 也可以使用[setting.exe](https://github.com/tiandic/Minimalist-settings)进行图形化配置
+
+改变的鼠标样式只有3种,可以自定义
+
+`normal.cur`
+`ibeam.cur`
+`appstarting.cur`
+
+将需要自定义的鼠标样式文件更名为以上的文件名,将其放在安装目录下即可
 
 ### 编译
 

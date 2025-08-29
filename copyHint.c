@@ -1,7 +1,7 @@
 /*
  * @encode: utf-8
  * @Date: 2025-08-20 21:11:02
- * @LastEditTime: 2025-08-29 09:14:53
+ * @LastEditTime: 2025-08-29 13:48:42
  * @FilePath: /copy paste optimize/src/copyHint.c
  */
 #define OEMRESOURCE
@@ -312,7 +312,7 @@ void easySetCursor(char *path,int target)
 
 void setAllCursor()
 {
-    char normal_path[1024] = "ormal.cur";
+    char normal_path[1024] = "normal.cur";
     char ibeam_path[1024] = "ibeam.cur";
     char appstarting_path[1024] = "appstarting.cur";
 
