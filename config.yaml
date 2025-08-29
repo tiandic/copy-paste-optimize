@@ -1,0 +1,5 @@
+boop: false       # //$ title: 提示音; detail: 按下ctrl+c,成功复制到后,会有系统提示音; type: bool
+mouse: true       # //$ title: 改变鼠标样式; detail: 按下ctrl+c,成功复制到后,会改变光标样式,10秒后恢复; type: bool
+long_mouse: false # //$ title: 改变鼠标样式2; detail: 按下ctrl+c,成功复制到后,会改变光标样式,在按下ctrl+v后,才会恢复原来的样式; type: bool
+Verify: true      # //$ title: 验证复制; detail: 按下ctrl+c,与按下ctrl+v复制粘贴文件后,使用sha256验证文件是否复制完整; type: bool
+Verify_hint: true # //$ title: 验证复制时有提示; detail: 在按下ctrl+v粘贴文件后,会有窗口弹出,询问是否进行验证; type: bool
