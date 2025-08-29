@@ -3,7 +3,7 @@
 mkdir out
 
 gcc -static -shared .\copyHint.c .\config.c hookdll.c -o out/hookdll.dll -luser32 -lgdi32 -lyaml
-gcc -static -mwindows .\main.c -o out/copyOptimize.exe
+gcc -static -mwindows .\main.c app.res -o out/copyOptimize.exe
 gcc -static -mwindows .\recoverCursor.c -o out/recoverCursor.exe
 
 pip install pyinstaller
