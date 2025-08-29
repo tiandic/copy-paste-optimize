@@ -6,6 +6,7 @@
  */
 #include <windows.h>
 #include <stdio.h>
+#include "ch.h"
 
 HMODULE hModule = NULL; // 用于存储加载的 DLL
 
@@ -30,6 +31,7 @@ BOOL CtrlHandler(DWORD fdwCtrlType)
 
 int main()
 {
+    change_to_program_dir();
     // 设置控制台 Ctrl+C 事件的处理程序
     if (!SetConsoleCtrlHandler((PHANDLER_ROUTINE)CtrlHandler, TRUE))
     {
